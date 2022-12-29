@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+:root {
+    --text-color: black;
+    --stroke-color: rgba(0, 0, 0, 0.184);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+   
+    
+    
+    
+  }
+
+body{
+    background-image: url(./assets/bg-ligth-pink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+/* Container */
+.container {
+    width: 100%;
+    max-width: 588px;
+    /* height: 720px; */
+    border: 3px solid var(--stroke-color);
+    margin: 56px auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.profile {
+text-align: center;
+margin-top: 15px;
+}
+.profile img {
+    border: 2px solid var(--stroke-color);
+    border-radius: 60px;
+}
+
+.profile p {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 24px;  
+}
+
+ul  {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+    list-style: none;
+    ;
+}
+
+
+  button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--surface-color);
+    border:  1px solid var(--stroke-color);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background: var(--surface-color-hover);
+    border:  1px solid var(--text-color);
+  }
