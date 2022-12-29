@@ -10,6 +10,8 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
         rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        
     <link rel="icon" type="image/jpeg" href="./assets/favicon.png">
     <link rel="stylesheet" href="./style.css">
     <title>Palitória</title>
@@ -24,15 +26,31 @@
             <ul>
                 <button><a href="#" target="_blank">Whatsapp</a> </button>
                 <button><a href="#" target="_blank">Instagram</a> </button>
-                <button><a href="#" target="_blank">Galeria</a> </button>
-                
-                
+                <button id="btn" onmousedown="showGalery()"><a href="#">Galeria</a> </button>  
             </ul>
+            <!-- Slider main container -->
+    <div class="swiper" id="swiper">
+    <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+      <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      
+        </div>
+   
+  
+    <!-- navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+  
+   
+      </div>
         
     </div>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./Js/script.js"></script>
 </body>
 </html>
