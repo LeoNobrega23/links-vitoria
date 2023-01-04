@@ -1,16 +1,16 @@
 //Button
 
+// var btn = document.getElementById('btn')
+// var galery = document.getElementById('swiper')
+// btn.addEventListener('click', showGalery)
+// function showGalery() {
+//     if (swiper.style.display === 'none') {
+//         swiper.style.display = 'block'
+//     } else {
+//         swiper.style.display = 'none'
+//     }
+// };
 
-
-function showGalery () {
-    console.log('clicou')
-    const galery = document.getElementById('swiper')
-    if (galery.style.display === 'none') {
-        galery.style.display = 'block'
-    } else {
-        galery.style.display = 'none'
-    }
-}
 
 
 //Swiper
