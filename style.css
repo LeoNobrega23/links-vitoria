@@ -93,5 +93,6 @@ ul li a button{
 @media (max-width:700px) {
   .container {
     width: 90%;
+    margin-top: 234.5px;
   }
 }
